@@ -71,8 +71,8 @@ Here are some ideas to get you started:
 <br>
 
 ## ❤️ Contributions
-<!-- START_SECTION:myosc -->
-<!-- END_SECTION:myosc -->
+<!-- ::user-prs:start -->
+<!-- ::user-prs:end -->
 <br>
 
 ## 🏆 GitHub Trophies
