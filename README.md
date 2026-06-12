@@ -1,4 +1,8 @@
 ![](https://capsule-render.vercel.app/api?type=waving&height=200&color=109dde&text=Gani%20Gürgah&reversal=false&fontAlign=50&fontColor=fafafa&textBg=false&section=header&descAlign=50&descAlignY=50)
+<p align="center">
+  <img
+    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=500&pause=1000&width=435&lines=Senior+Java+Engineer;Generative+AI+%26+RAG+Specialist;Spring+Framework+Specialist;Apache+NetBeans+Contributor" />
+</p>
 
 <!--
 **ganigurgah/ganigurgah** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -16,8 +20,6 @@ Here are some ideas to get you started:
 -->
 
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=500&pause=1000&width=435&lines=Senior+Java+Engineer;Generative+AI+%26+RAG+Specialist;Spring+Framework+Specialist;Apache+NetBeans+Contributor)](https://git.io/typing-svg)
-<br>
 ## Hi there 👋 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=ganigurgah.ganigurgah)
 #
 ## ✨ Companions
@@ -68,10 +70,6 @@ Here are some ideas to get you started:
 ![Gnome](https://img.shields.io/badge/Gnome-%2307405e.svg?style=flat&logo=gnome&logoColor=4A86CF)
 ![Family](https://img.shields.io/badge/AndMyFamily-%2307405e.svg?style=social&logo=huggingface&logoColor=E60505)
 
-<br>
-
-## ❤️ Contributions
-![Apache Katkılarım](profile/prs-apache.svg)
 <br>
 
 ## 🏆 GitHub Trophies
