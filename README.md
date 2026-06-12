@@ -1,4 +1,4 @@
-## Hi there 👋 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=ganigurgah.ganigurgah)
+![](https://capsule-render.vercel.app/api?type=waving&height=200&color=109dde&text=Gani%20Gürgah&reversal=false&fontAlign=50&fontColor=fafafa&textBg=false&section=header&descAlign=50&descAlignY=50)
 
 <!--
 **ganigurgah/ganigurgah** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -14,8 +14,12 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-<br>
 
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=500&pause=1000&width=435&lines=Senior+Java+Engineer;Generative+AI+%26+RAG+Specialist;Spring+Framework+Specialist;Apache+NetBeans+Contributor)](https://git.io/typing-svg)
+<br>
+## Hi there 👋 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=ganigurgah.ganigurgah)
+#
 ## ✨ Companions
 ![Os](https://img.shields.io/badge/OS->-%2300e.svg?style=flat&logo=battledotnet&color=grey)
 ![fedora](https://img.shields.io/badge/Linux-fedora-informational?style=flat&logo=fedora&logoColor=51A2DA)
@@ -68,4 +72,4 @@ Here are some ideas to get you started:
 <br>
 
 ## 🏆 GitHub Trophies
-![trophy](https://github-profile-trophy.vercel.app/?username=ganigurgah&theme=onedark)
+![trophy](https://github-profile-trophy-fork-two.vercel.app/?username=ganigurgah&theme=onedark)
