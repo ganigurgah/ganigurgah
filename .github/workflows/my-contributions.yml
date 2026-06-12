@@ -21,8 +21,8 @@ jobs:
       - name: Generate PRs card
         uses: Daraan/pr-stats-action@v1
         with:
-          username: ganigurgah
-          theme: github_dark
+          card: prs
+          options: username=ganigurgah&theme=github_dark
           path: profile/prs-
           token: ${{ secrets.GITHUB_TOKEN }}
 
