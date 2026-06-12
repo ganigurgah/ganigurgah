@@ -1,34 +1,33 @@
-name: Build My Contributions List
+name: Update PR Stats for README
 
 on:
-  push:
-    branches:
-      - main
-  workflow_dispatch:
   schedule:
-    - cron: '0 0 1 * *'
+    - cron: "0 0 * * *" # Runs once daily at midnight
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     permissions:
       contents: write
+
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - name: Generate PRs card
-        # Resmi dökümantasyona uygun parametrelerle güncellendi
         uses: Daraan/pr-stats-action@v1
         with:
-          card: "prs" # Beklenen zorunlu parametre eklendi
-          path: "profile/prs-"
+          username: ganigurgah
+          theme: github_dark
+          path: profile/prs-
           token: ${{ secrets.GITHUB_TOKEN }}
-          options: "theme=default&username=ganigurgah" # Tüm filtre ve temalar buraya yazılır
 
-      - name: Commit and Push Card
+      # This automatically commits and updates the generated cards to your profile
+      - name: Commit cards
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add profile/*.svg
-          git commit -m "Update open-source PR cards" || exit 0
+          git commit -m "Update PR cards" || exit 0
           git push
