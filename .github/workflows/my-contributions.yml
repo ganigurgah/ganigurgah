@@ -2,18 +2,29 @@ name: Build My Contributions List
 
 on:
   push:
+    branches:
+      - main
   workflow_dispatch:
   schedule:
-  # run once every month
-    - cron:  '0 0 1 * *'
+    - cron: '0 0 1 * *' # Ayda bir otomatik güncellenir
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Generate My PRs List 👀
-      uses: developersIndia/myosc@main
-      with:
-        username: "ganigurgah"
-        filename: "README.md"
+      - uses: actions/checkout@v4
+
+      - name: Open Source PRs List
+        uses: gautamkrishnar/user-prs-action@master
+        with:
+          user: "ganigurgah"
+          # Sadece Apache organizasyonundaki katkılarınızı çeker:
+          query: "author:ganigurgah org:apache is:pr"
+          limit: 10
+
+      - name: Deploy Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@://github.com"
+          git add README.md
+          git diff-index --quiet HEAD || git commit -m "Update open-source contributions" && git push
