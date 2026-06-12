@@ -68,7 +68,11 @@ Here are some ideas to get you started:
 ![Gnome](https://img.shields.io/badge/Gnome-%2307405e.svg?style=flat&logo=gnome&logoColor=4A86CF)
 ![Family](https://img.shields.io/badge/AndMyFamily-%2307405e.svg?style=social&logo=huggingface&logoColor=E60505)
 
+<br>
 
+## ❤️ Contributions
+<!-- START_SECTION:myosc -->
+<!-- END_SECTION:myosc -->
 <br>
 
 ## 🏆 GitHub Trophies
