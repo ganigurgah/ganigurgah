@@ -71,8 +71,7 @@ Here are some ideas to get you started:
 <br>
 
 ## ❤️ Contributions
-<!-- ::user-prs:start -->
-<!-- ::user-prs:end -->
+![Apache Katkılarım](profile/prs-apache.svg)
 <br>
 
 ## 🏆 GitHub Trophies
